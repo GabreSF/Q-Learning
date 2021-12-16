@@ -1,2 +1,3 @@
 # Q-Learning
 Neste projeto, Foi realizado a missão de pegar o passageiro(Denominado pela cor Azul) e levar até o seu destino(Denominado como rosa) isso com o Algoritmo Q-Learning...
+Observação, Realize a codificação em sua máquina, para assim ver a animação do taxi.
