@@ -7,6 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1D3NxEl4hXf_ZSrJ1QFjAubbEhABXa-nz
 
 **Aprendizagem Por Reforço com Q-Learning**
+**Reinforcement Learning with Q-Learning**
 
 [Fonte](https://gym.openai.com/)
 """
@@ -27,6 +28,7 @@ env = gym.make('Taxi-v3').env
 env.render()
 
 """**Temos 6 ações possíveis para realizar**"""
+"""**We have 6 possible actions to perform**"""
 
 # 0 = south 1 = north 2 = east 3 = west 4 = pickup 5 = dropoff
 print(env.action_space)
@@ -74,6 +76,7 @@ q_table.shape
 # print('Treinamento Concluido')
 
 """**Avaliação**"""
+"""**Assessment**"""
 
 total_penalidades = 0
 episodios = 50
